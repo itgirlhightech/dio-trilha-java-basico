@@ -22,7 +22,7 @@ public class  ProcessoSeletivo {
                 System.out.println("CONTATO REALIZADO COM SUCESSO");
               
 
-        }while(continuarTentando && tentativasRealizadas < 3);
+        }while(continuarTentando && tentativasRealizadas<3);
 
         if(atendeu)
            System.out.println("CONSEGUIMOS CONTATO COM  " + candidato + " NA " + tentativasRealizadas + "  TENTATIVA");
@@ -58,7 +58,7 @@ public class  ProcessoSeletivo {
             double salarioPretendido = valorPretendido();
 
             System.out.println("O candidato  " + candidato + " Solicitou este valor de salário  " + salarioPretendido);
-            if(salarioBase >= salarioPretendido) {
+            if( salarioBase >= salarioPretendido) {
                 System.out.println("O candidato  " + candidato + " foi selecionado para a vaga");
                 candidatosSelecionados++;
             }
